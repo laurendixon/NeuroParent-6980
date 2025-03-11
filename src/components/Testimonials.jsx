@@ -52,9 +52,14 @@ const Testimonials = () => {
           <h3 className="text-2xl font-semibold mb-8 text-gray-900">
             Join a growing community of parents navigating neurodivergence with confidence
           </h3>
-          <button className="bg-primary-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:bg-primary-700 transition-colors">
-            Sign Up for Updates
-          </button>
+          <a
+            href="https://discord.gg/pms29fcYuv"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-primary-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:bg-primary-700 transition-colors"
+          >
+            Join us on Discord
+          </a>
           <p className="mt-4 text-sm text-gray-600">
             🔒 GDPR & privacy compliant
           </p>

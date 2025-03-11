@@ -61,9 +61,14 @@ const Features = () => {
           viewport={{ once: true }}
           className="mt-12 text-center"
         >
-          <button className="bg-secondary-600 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:bg-secondary-700 transition-colors">
+          <a
+            href="https://go.neuroparent.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-secondary-600 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:bg-secondary-700 transition-colors"
+          >
             See How It Works
-          </button>
+          </a>
         </motion.div>
       </div>
     </section>
