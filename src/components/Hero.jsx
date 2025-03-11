@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import backgroundImage from '.../assets/pexels-anete-lusina-5240422.jpg';
+import { useNavigate } from "react-router-dom";
 
 
 const Hero = () => {
@@ -31,6 +32,7 @@ const Hero = () => {
             Practical strategies for meltdowns, overstimulation, and emotional regulation—just when you need them.
           </p>
           <motion.button
+            onClick={() => window.location.href = "https://go.neuroparent.app"}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="bg-primary-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:bg-primary-700 transition-colors"
