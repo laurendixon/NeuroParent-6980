@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import backgroundImage from '../assets/pexels-anete-lusina-5240422.jpg';
+import backgroundImage from '../../assets/pexels-anete-lusina-5240422.jpg';
 import { useNavigate } from "react-router-dom";
 
 
