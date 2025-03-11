@@ -1,17 +1,16 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import backgroundImage from '../imgs/pexels-anete-lusina-5240422.jpg';
 
 const Hero = () => {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <div 
-      className="absolute inset-0 bg-cover bg-center"
-      style={{
-        backgroundImage: `url(${backgroundImage})`,
-        filter: 'brightness(0.7)',
-      }}
-    />;
+        className="absolute inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage: 'url("https://images.unsplash.com/photo-1707343843437-caacff5cfa74?q=80&w=2940&auto=format&fit=crop")',
+          filter: 'brightness(0.7)'
+        }}
+      />
       <div className="absolute inset-0 bg-black/30" />
       
       <div className="container mx-auto px-6 relative z-10">
