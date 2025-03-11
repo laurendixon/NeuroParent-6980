@@ -4,7 +4,14 @@ import { motion } from 'framer-motion';
 const Hero = () => {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-primary-100/30 to-secondary-100/30" />
+      <div 
+        className="absolute inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage: 'url("https://images.unsplash.com/photo-1707343843437-caacff5cfa74?q=80&w=2940&auto=format&fit=crop")',
+          filter: 'brightness(0.7)'
+        }}
+      />
+      <div className="absolute inset-0 bg-black/30" />
       
       <div className="container mx-auto px-6 relative z-10">
         <motion.div
@@ -13,10 +20,10 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
             Real-Time Support for Parents of Neurodivergent Kids
           </h1>
-          <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-white mb-8 max-w-3xl mx-auto">
             Practical strategies for meltdowns, overstimulation, and emotional regulation—just when you need them.
           </p>
           <motion.button

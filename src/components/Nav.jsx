@@ -12,14 +12,19 @@ const Nav = () => {
             transition={{ duration: 0.5 }}
             className="flex items-center"
           >
-            <div className="flex items-center">
+            <a 
+              href="https://neuroparent.app" 
+              className="flex items-center"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span className="text-xl font-semibold bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent">
                 NeuroParent
               </span>
               <span className="ml-2 text-sm bg-rose-500 text-white px-2 py-0.5 rounded font-bold">
                 Beta
               </span>
-            </div>
+            </a>
           </motion.div>
 
           <motion.div
