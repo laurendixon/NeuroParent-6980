@@ -1,0 +1,26 @@
+
+# robots.txt for neuroparent.app
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.neuroparent.app/sitemap.xml
+
+# Disallow any potential admin or private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Crawl delay for specific bots (in seconds)
+User-agent: Googlebot
+Crawl-delay: 1
+
+User-agent: Bingbot
+Crawl-delay: 1
+
+User-agent: Slurp
+Crawl-delay: 2
+
+# Disallow heavy resource directories if needed
+# Disallow: /resources/downloads/
+# Disallow: /assets/videos/
